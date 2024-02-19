@@ -1,0 +1,16 @@
+{
+  "video_headline": "Descubra os melhores produtos pra você!",
+  "video_sub_headline": "Veja nossos destaques e faça suas compras com desconto",
+  "video_url": "#",
+  "projects" : [
+    {
+      "product_id": 1,
+      "name": "Mosquetão",
+      "price": 49.99,
+      "discount": 10,
+      "best_choice": true,
+      "freight": "Frete grátis",
+      "image_url": "#"
+    }
+  ]
+}
