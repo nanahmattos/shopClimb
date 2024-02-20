@@ -14,7 +14,7 @@ export const Card = styled.div`
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 
   .deliveryFree {
     color: ${colors.green};
@@ -55,10 +55,12 @@ export const TagStatus = styled.div`
   top: 16px;
   right: 0;
   background-color: ${colors.orange};
-  color: ${colors.white};
-  font-size: 14px;
-  font-weight: bold;
   border-radius: 0 20px 0 0;
   padding: 10px;
   max-width: 130px;
+  p {
+    color: ${colors.white};
+    font-size: 14px;
+    font-weight: bold;
+  }
 `

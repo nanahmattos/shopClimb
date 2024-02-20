@@ -5,11 +5,11 @@ declare type Banner = {
 }
 
 declare type Products = {
-  product_id?: number
+  product_id: number
   name: string
   price: number
-  discount: number
+  discount?: number
   best_choice?: boolean
-  freight: string
+  freight?: string
   image_url: string
 }

@@ -1,5 +1,12 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
+export const Cart = styled.div`
+  display: none;
+
+  &.is-open {
+    display: flex;
+  }
+`
 
 export const Container = styled.div`
   display: grid;
@@ -24,6 +31,7 @@ export const InputItems = styled.div`
     margin: 10px;
   }
   input {
+    padding: 10px;
     display: block;
     background-color: ${colors.gray};
     border: none;
@@ -37,6 +45,10 @@ export const ListItems = styled.div`
   flex-direction: column;
   padding: 30px;
   }
+  ul {
+    max-height: 350px;
+    overflow: auto;
+  }
 `
 export const Buttons = styled.div`
   display: inline-flex;
@@ -47,6 +59,7 @@ export const ProductItem = styled.li`
   justify-content: space-between;
   padding: 20px;
   margin: 16px 0;
+  background-color: #fff;
 
   div {
     p {

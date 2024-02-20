@@ -1,8 +1,10 @@
 import { colors } from './../../styles'
 import styled from 'styled-components'
+import { ButtonProps } from './index'
 
-export const Button = styled.button`
-  background-color: ${colors.green};
+export const Button = styled.button<ButtonProps>`
+  background-color: ${(props) =>
+    props.variant === 'primary' ? colors.green : colors.black};
   color: ${colors.white};
   font-weight: bold;
   padding: 16px 0;

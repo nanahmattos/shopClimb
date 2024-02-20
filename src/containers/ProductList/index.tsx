@@ -1,16 +1,18 @@
-import Card from '../../components/Card'
+import Product from '../../components/Product'
+
 import * as S from './styles'
 
-type Props = {
+export type Props = {
   products: Products[]
 }
 const ProductList = ({ products }: Props) => {
   return (
     <S.Container>
+      <h2>Produtos</h2>
       <ul className="container">
         {products.map((item) => (
           <li key={item.product_id}>
-            <Card
+            <Product
               product_id={item.product_id}
               name={item.name}
               price={item.price}
