@@ -3,6 +3,9 @@ import styled from 'styled-components'
 
 export const Header = styled.header`
   padding: 30px 0;
+  img {
+    cursor: pointer;
+  }
 `
 export const Links = styled.ul`
   display: flex;

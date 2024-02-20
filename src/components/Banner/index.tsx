@@ -1,4 +1,10 @@
-const Banner = ({ video_headline, video_sub_headline, video_url }: Banner) => {
+type BannerProps = {
+  video_url: string
+  video_headline: string
+  video_sub_headline: string
+}
+
+const Banner = ({ video_url, video_headline, video_sub_headline }: BannerProps) => {
   return (
     <>
       <iframe

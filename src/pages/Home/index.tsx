@@ -1,18 +1,15 @@
 import Header from '../../components/Header'
-import Banner from '../../components/Banner'
 import ProductList from '../../containers/ProductList'
 import Cart from '../../containers/Cart'
-
-import { useGetProductQuery } from '../../services/api'
+import { useGetProductsQuery } from '../../services/api'
 
 const Home = () => {
-  const { data: produto } = useGetProductQuery()
+  const { data: produto } = useGetProductsQuery() // Pass identifier here
 
   return (
     <>
       <Header />
-      <Banner />
-      {produto && <ProductList products={produto} />}
+      {produto && <ProductList products={[produto]} />}
       <Cart />
     </>
   )

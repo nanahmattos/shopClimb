@@ -1,7 +1,14 @@
+import { useDispatch } from 'react-redux'
 import cart from '../../assets/images/cart.svg'
+import { open } from '../../store/reducers/cart'
 import * as S from './styles'
 
 const Header = () => {
+  const dispatch = useDispatch()
+
+  const openCart = () => {
+    dispatch(open())
+  }
   return (
     <div className="container">
       <S.Header>
@@ -16,7 +23,7 @@ const Header = () => {
             <li>
               <a href="#">Contato</a>
             </li>
-            <img src={cart} alt="cart" />
+            <img src={cart} onClick={openCart} alt="cart" />
           </S.Links>
         </nav>
       </S.Header>

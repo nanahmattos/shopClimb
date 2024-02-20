@@ -54,16 +54,6 @@ const Cart = () => {
     }),
     onSubmit: (values) => {
       console.log(values)
-      // purchase({
-      //   name: values.name,
-      //   email: values.email,
-      //   phone_number: values.phone_number,
-      //   street_number: values.street_number,
-      //   street: values.street,
-      //   district: values.district,
-      //   city: values.city,
-      //   state: values.state
-      // })
     }
   })
 

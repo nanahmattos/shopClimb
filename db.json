@@ -1,43 +1,47 @@
 {
-  "video_headline": "Descubra os melhores produtos pra você!",
-  "video_sub_headline": "Veja nossos destaques e faça suas compras com desconto",
-  "video_url": "#",
-  "products" : [
-    {
-      "product_id": 1,
-      "name": "Produto",
-      "price": 49.99,
-      "discount": 15,
-      "best_choice": true,
-      "freight": "Frete grátis",
-      "image_url": "https://placehold.co/500x500"
-    },
-    {
-      "product_id": 2,
-      "name": "Produto",
-      "price": 49.99,
-      "discount": 10,
-      "best_choice": false,
-      "freight": "Frete grátis",
-      "image_url": "https://placehold.co/500x500"
-    },
-    {
-      "product_id": 3,
-      "name": "Produto",
-      "price": 29.99,
-      "discount": 5,
-      "best_choice": false,
-      "freight": "Frete grátis",
-      "image_url": "https://placehold.co/500x500"
-    },
-    {
-      "product_id": 4,
-      "name": "Produto",
-      "price": 10.99,
-      "discount": 5,
-      "best_choice": false,
-      "freight": "Frete grátis",
-      "image_url": "https://placehold.co/500x500"
-    }
+  "HTTPStatus": 200,
+  "executed": true,
+  "userIdentified": true,
+  "message": "Checkout data success",
+  "userToken": "AB30AB6C-2CB2-442A-A8C7-ACBB606A0E35",
+  "object": [
+      {
+          "checkout_id": 1,
+          "identifier": "95BD9233-8FDC-48AD-B4C5-E5BAF7578C15",
+          "video_headline": "O SuperPack \u00e9 diferente de tudo que voc\u00ea j\u00e1 ouviu falar. Regula sua microbiota intestinal, acelera seu metabolismo e elimina a gordura teimosa enquanto voc\u00ea desfruta de energia e performance f\u00edsica.",
+          "video_sub_headline": "Recupere sua vida e autoestima hoje mesmo! Nossa f\u00f3rmula avan\u00e7ada est\u00e1 aqui para ajud\u00e1-lo a superar os desafios do sobrepeso e aproveitar uma vida saud\u00e1vel, feliz e ativa.",
+          "video_url": "https:\/\/youtu.be\/T5W3TJtYa2E?si=KdsQ9vc3b03nH2P9",
+          "products": [
+              {
+                  "product_id": 1,
+                  "name": "Pack 001 - 1 unidade",
+                  "price": 49.99,
+                  "discount": 0,
+                  "freight": "Frete gr\u00e1tis",
+                  "image_url": "https:\/\/inapak.com\/wp-content\/uploads\/2017\/07\/iStock-491520707.jpg",
+                  "best_choice": false
+              },
+              {
+                  "product_id": 2,
+                  "name": "Pack 002 - 3 unidades",
+                  "price": 129.99,
+                  "discount": 9.99,
+                  "freight": "Frete gr\u00e1tis",
+                  "image_url": "https:\/\/inapak.com\/wp-content\/uploads\/2017\/07\/iStock-491520707.jpg",
+                  "best_choice": false
+              },
+              {
+                  "product_id": 3,
+                  "name": "Pack 003 - Tratamento 6 meses",
+                  "price": 320,
+                  "discount": 120,
+                  "freight": "Frete gr\u00e1tis",
+                  "image_url": "https:\/\/inapak.com\/wp-content\/uploads\/2017\/07\/iStock-491520707.jpg",
+                  "best_choice": true
+              }
+          ],
+          "created_at": "2024-02-13T07:57:17.000000Z",
+          "updated_at": "2024-02-13T07:57:21.000000Z"
+      }
   ]
 }
